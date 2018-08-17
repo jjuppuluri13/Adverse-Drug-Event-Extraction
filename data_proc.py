@@ -73,42 +73,6 @@ def pos_label(tokens):
 #df.sentence = df.sentence.apply(lambda x: lemma(x))
 #df.drug = df.drug.apply(lambda x: lemma(x))
 
-print (df.sentence)
-
-#drug_train = []
-#i = 0
-#while i < 5457:
-#    drug_train.append(df.drug[i])
-#    i += 1
-#
-#thefile = open('train_drug.txt', 'w')
-#for item in drug_train:
-#    thefile.write("%s\n" % item)
-#
-#drug_test = []
-#i = 5457
-#while i < 6139:
-#    drug_test.append(df.drug[i])
-#    i += 1
-#
-#outfile = open('test_drug.txt', 'w')
-#for item in drug_test:
-#    outfile.write("%s\n" % item)
-
-#i = 0
-#corpus = []
-#while i < 6821:
-#    corpus.append(df.sentence[i])
-#    i += 1
-    
-
-#def save_doc(lines, filename):
-#	file = open(filename, 'w')
-#	file.write(lines)
-#	file.close()
-#    
-#out_filename = 'sentences.txt'
-#save_doc(corpus, out_filename)
 
 
 
